@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../imagens/fundo.jpg);
+  background-image: url(../img/background.jpg);
 }
 
 .container {

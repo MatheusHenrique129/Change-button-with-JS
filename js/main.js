@@ -1,15 +1,15 @@
-const botao1 = document.getElementById("b01");
-const botao2 = document.getElementById("b02");
+const button1 = document.getElementById("b01");
+const button2 = document.getElementById("b02");
 
-function trocaDireita() {
-  botao1.textContent = "ON";
-  botao2.textContent = "OFF";
+function directExchange() {
+  button1.textContent = "ON";
+  button2.textContent = "OFF";
 }
 
-function trocaEsquerda() {
-  botao1.textContent = "OFF";
-  botao2.textContent = "ON";
+function leftExchange() {
+  button1.textContent = "OFF";
+  button2.textContent = "ON";
 }
 
-botao1.addEventListener("click", trocaDireita);
-botao2.addEventListener("click", trocaEsquerda);
+button1.addEventListener("click", directExchange);
+button2.addEventListener("click", leftExchange);
